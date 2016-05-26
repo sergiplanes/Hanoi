@@ -28,17 +28,29 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+
+#include <stdio.h>
+#include <string.h>
 #include <iostream>
 
 int main(int argc, char**argv) {
     // Prints welcome message...
-    std::cout << "Welcome ..." << std::endl;
+    std::cout << "Hola, vamos a probar que ha tecleado por pantalla al ejecutar el programa..." << std::endl;
 
     // Prints arguments...
     if (argc > 1) {
         std::cout << std::endl << "Arguments:" << std::endl;
         for (int i = 1; i < argc; i++) {
             std::cout << i << ": " << argv[i] << std::endl;
+            
+            if (strcmp("-d",argv[i])==0){
+              std::cout << "Has pasado un -d en el programa?" << std::endl;  
+            }else  if (strcmp("-f",argv[i])==0){
+              std::cout << "Has pasado un -f en el programa?" << std::endl;  
+            }else  if (strcmp("-o",argv[i])==0){
+              std::cout << "Has pasado un -0 en el programa?" << std::endl;  
+            }
+            
         }
     }
     
