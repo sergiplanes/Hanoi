@@ -48,7 +48,7 @@ int main(int argc, char**argv) {
             }else  if (strcmp("-f",argv[i])==0){
               std::cout << "Has pasado un -f en el programa?" << std::endl;  
             }else  if (strcmp("-o",argv[i])==0){
-              std::cout << "Has pasado un -0 en el programa?" << std::endl;  
+              std::cout << "Has pasado un -o en el programa?" << std::endl;  
             }
             
         }

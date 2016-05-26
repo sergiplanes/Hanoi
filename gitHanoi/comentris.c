@@ -21,3 +21,33 @@
  */
 
 
+/*
+ * Punteros time
+ * char *texto
+ * (*texto)='z'
+ * esto dice que donde apunte texto pongamos una 'z'
+ * 
+ * texto = 'z'
+ * no funcionara
+ * 
+ * texto es la caja
+ * *texto es el contenido de la direccion.
+ * 
+ * malloc ----> pedir memoria.
+ * 
+ * malloc(size)
+ *  
+ * sizeof(quanta memoria ocupa un tipo de datos)
+ * 
+ * Para 1 byte
+ * char *t;
+ * int tamaño = sizeof(char);
+ * t=malloc(tamaño);
+ * 
+ * char *arr
+ * arr = malloc(sizeof(char)*N);
+ * 
+ * 
+ * liberar memoria
+ * free(arr);
+ */ 
