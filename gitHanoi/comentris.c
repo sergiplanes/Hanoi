@@ -50,4 +50,32 @@
  * 
  * liberar memoria
  * free(arr);
+ * 
+ * char *var;
+ * var = malloc(sizeof( siezeof(char)*4)                        
+ * 
+ * var[0]='A'
+ * |
+ * |
+ * [2]='D'
+ * 
+ * realloc(var,sizeof(char)+sizeof(var))
+ * 
+ * 
+ * typedef struct{
+ *  int a;
+ *  int b;
+ *  char c;
+ * }estructura;
+ * 
+ *  estructura *var = malloc(sizeof(estructura)*3);
+ * 
+ * var[0].a =100
+ * var[0].b =200
+ * var[0].c ='p'
+ * 
+ * estructura *e;
+ * e = malloc(sizeof(estructura));
+ * (*e).a ='p'
+ * e->a ='p'
  */ 
