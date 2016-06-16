@@ -4,7 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>welcome.h</itemPath>
+      <itemPath>cap.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -14,7 +14,10 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>comentris.c</itemPath>
-      <itemPath>hanoi.cc</itemPath>
+      <itemPath>hanoi.c</itemPath>
+      <itemPath>inputoutput.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>ordena.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -32,11 +35,17 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="cap.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="comentris.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="hanoi.cc" ex="false" tool="1" flavor2="0">
+      <item path="hanoi.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="welcome.h" ex="false" tool="3" flavor2="0">
+      <item path="inputoutput.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ordena.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -59,11 +68,17 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="cap.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="comentris.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="hanoi.cc" ex="false" tool="1" flavor2="0">
+      <item path="hanoi.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="welcome.h" ex="false" tool="3" flavor2="0">
+      <item path="inputoutput.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ordena.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>
